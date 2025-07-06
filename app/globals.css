@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+  @apply min-h-screen bg-black bg-gradient-to-br from-gray-900 via-purple-900/20 to-blue-900/20 text-white;
+
+}
