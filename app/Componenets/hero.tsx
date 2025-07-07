@@ -42,7 +42,7 @@ const Hero = () => {
 
           <Link href={"/dashboard"} className="inline-block">
 
-          <button className="group relative inline-flex items-center gap-3 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-500 hover:to-blue-500 px-8 py-4 rounded-full text-lg font-medium transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/25">
+          <button className="group inline-flex items-center gap-3  bg-gradient-to-r bg-gradient-to-r from-purple-600 to-blue-600 hover:from-blue-500 hover:via-blue-600 hover:to-purple-600 text-white font-semibold py-4 px-8 rounded-full transition-all duration-300 flex items-center justify-center  group/button shadow-lg hover:shadow-blue-500/25 hover:shadow-xl">
             Let's Start
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
           </button>
