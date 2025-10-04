@@ -39,7 +39,7 @@ const RoomCard = ({
           }
           
          } catch (error : any) {
-          console.error("Error deleting room:", error);
+          // console.error("Error deleting room:", error);
           alert("Error deleting room: " + "you are not owner of this room or something wrong" );
           // window.location.reload();
          }
